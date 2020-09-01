@@ -1,0 +1,36 @@
+{
+  "patient": [{
+    "id": 1,
+    "name": "Hennry Smith",
+    "gender": "M",
+    "dateOfBirth": "01-10-1975"
+  }, {
+    "id": 2,
+    "name": "Ansa Andrew",
+    "gender": "F",
+    "dateOfBirth": "15-09-1979"
+  },
+  {
+    "id": 3,
+    "name": "Hennry Smith",
+    "gender": "M",
+    "dateOfBirth": "01-10-1975"
+  }, {
+    "id": 4,
+    "name": "Ansa Andrew",
+    "gender": "F",
+    "dateOfBirth": "15-09-1979"
+  },
+  {
+    "id": 5,
+    "name": "Hennry Smith",
+    "gender": "M",
+    "dateOfBirth": "01-10-1975"
+  }, {
+    "id": 6,
+    "name": "Ansa Andrew",
+    "gender": "F",
+    "dateOfBirth": "15-09-1979"
+  }
+]
+}

@@ -1,0 +1,33 @@
+mat-toolbar{
+  background-color: var(--background-header);
+  // border-bottom: 1px solid #393d46;
+
+}
+
+#bulb{
+  color: var(--light-bulb);
+}
+
+ul li {
+    list-style: none;
+  }
+
+  ul li button{
+      color:#ffff;
+  }
+
+  .mat-icon-button{
+      color:#ffff;
+  }
+
+  .mat-icon-button:hover{
+      color: aqua;
+  }
+
+  img
+{
+  max-width: 150px;
+  max-height: 60px;
+  min-height: 40px;
+  min-width: 50px;
+}

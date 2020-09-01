@@ -1,0 +1,70 @@
+{
+  "patient": [
+    {
+      "id": 1,
+      "name": "Hennry Smith",
+      "gender": "M",
+      "dateOfBirth": "1981-02-01"
+    },
+    {
+      "id": 2,
+      "name": "Ansa Andrew",
+      "gender": "F",
+      "dateOfBirth": "15-09-1979"
+    },
+    {
+      "id": 3,
+      "name": "Hennry Smith",
+      "gender": "M",
+      "dateOfBirth": "01-10-1975"
+    },
+    {
+      "id": 4,
+      "name": "Ansa Andrew",
+      "gender": "F",
+      "dateOfBirth": "15-09-1979"
+    },
+    {
+      "id": 5,
+      "name": "Hennry Smith",
+      "gender": "M",
+      "dateOfBirth": "01-10-1975"
+    },
+    {
+      "id": 6,
+      "name": "Ansa Andrew",
+      "gender": "F",
+      "dateOfBirth": "15-09-1979"
+    },
+    {
+      "id": 7,
+      "name": "Nivedita",
+      "gender": "F",
+      "dateOfBirth": "1991-12-31"
+    },
+    {
+      "id": 8,
+      "name": "nivedita Singh",
+      "gender": "F",
+      "dateOfBirth": "2020-09-22"
+    },
+    {
+      "id": 10,
+      "name": "Hitesh",
+      "gender": "M",
+      "dateOfBirth": "2016-01-31"
+    },
+    {
+      "id": 11,
+      "name": "nivi",
+      "gender": "F",
+      "dateOfBirth": "2020-09-09"
+    },
+    {
+      "id": 12,
+      "name": "Neha Singh",
+      "gender": "F",
+      "dateOfBirth": "1993-02-17"
+    }
+  ]
+}

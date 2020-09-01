@@ -1,0 +1,124 @@
+Table {
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+
+tr.mat-header-row {
+  height: 56px;
+  background: #5A8DC5;
+}
+
+
+.table-scroll {
+  display: block;
+
+  background-color: white;
+  font-size: 12px;
+  border: 0.2px solid rgb(216, 202, 202);
+  width: 100%;
+  overflow: hidden;
+
+  thead {
+    position: relative;
+    display: block;
+    width: 100%;
+    // background-color: $dark-blue;
+    // color: white;
+    font-size: 10px;
+    text-align: center;
+
+  background: #5A8DC5;
+
+  .mat-sort-header-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto !important;
+  }
+  }
+
+  tbody {
+    display: block;
+    position: relative;
+    width: 100%;
+    overflow-y: scroll;
+    height: 515px;
+    font-weight: 400px;
+    font-size: 12px;
+
+    border-bottom: 0.2px solid rgb(216, 202, 202);
+    tr:hover {
+      background-color: rgb(221, 214, 214);
+    }
+
+    tr {
+      border-bottom: 0.2px solid rgb(216, 202, 202);
+      border-spacing: 0.2px;
+      border-right: 0.2px solid rgb(216, 202, 202);
+    }
+  }
+
+  tr {
+    width: 100%;
+    display: flex;
+  }
+  th {
+    flex-basis: 100%;
+    //flex-grow: 1;
+    display: block;
+    padding: 0.8rem 1.5rem;
+    text-align: center;
+    color: rgb(250, 245, 245);
+    font-size: 14px;
+    text-transform: uppercase;
+    @media screen and (max-width: 425px) {
+      padding: 0.8rem .5rem;
+    }
+
+
+  }
+  td {
+    flex-basis: 100%;
+    // flex-grow:4;
+    display: block;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    img{
+      width: 40px;
+      height: 30px;
+      border: 0.5px solid rgba(128, 128, 128, 0.26);
+      overflow: hidden;
+
+    }
+  }
+
+  /* Other options */
+
+  td:last-child,
+  th:last-child {
+   // flex-basis: 40%;
+    flex-grow: 2;
+  }
+
+  td:first-child,
+  th:first-child {
+    flex-basis: 40%;
+    flex-grow: .25;
+  }
+
+  td:nth-child(2),
+  th:nth-child(2) {
+    flex-basis: 100%;
+    flex-grow: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .delete-btn{
+    margin-left: 4%;
+    color: rgb(141, 68, 68);
+  }
+}

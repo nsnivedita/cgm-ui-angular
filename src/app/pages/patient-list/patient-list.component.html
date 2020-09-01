@@ -1,0 +1,29 @@
+<div *ngIf="ELEMENT_DATA.length>0">
+<button mat-raised-button color="primary" style="float: right; margin:20px;" (click)="openDialog('')">Add</button>
+
+<table class="table-scroll" matSort (matSortChange)="sortData($event)">
+  <thead>
+  <tr>
+    <th style="margin: 0  !important;" mat-sort-header="id">#</th>
+    <th style="margin: 0 !important;" mat-sort-header="name">Patient Name</th>
+    <th style="margin-left: 4%  !important;" mat-sort-header="gender">Gender</th>
+    <th style="margin: 0  !important;" mat-sort-header="dateOfBirth">Date of Birth</th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let patient of sortedData let i = index">
+    <td>{{i+1}}</td>
+    <td>{{patient.name}}</td>
+
+    <td >{{patient.gender}}</td>
+    <td>{{patient.dateOfBirth}}</td>
+    <td>
+      <button><i class="fa fa-pencil" aria-hidden="true" (click)="openDialog(patient)"></i></button >
+      <button class="delete-btn" (click)="deletePatient(patient.id)"> <i class="fa fa-trash" aria-hidden="true"></i></button>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+</div>

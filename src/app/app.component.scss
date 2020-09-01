@@ -1,0 +1,51 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex-container {
+  height: 100%;
+
+  width: 100%;
+}
+
+.header {
+  min-height: 65px;
+  background-color:whitesmoke ;
+  box-shadow: 0 1px 3px 0 rgba(92, 125, 153, 0.5);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+.homeBanner {
+  background-image: url("../assets/banner.jpeg");
+  background-size: cover;
+  min-height: 350px;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-left: -2px;
+  z-index: -1;
+ // background-position: center center;
+  background-position: 100% 100%;
+}
+
+.main-body
+{
+  margin: -2.5em auto 100px auto;
+  width: 65%;
+  background: rgb(252, 249, 249);
+  border-style: Solid;
+  border-color: rgb(10, 10, 10);
+  border-width: 1px;
+  @media screen and (max-width: 425px) {
+    margin-top: 0px;
+    width: 100%;
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+}
+
